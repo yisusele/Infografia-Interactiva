@@ -1,0 +1,401 @@
+/* style.css */
+
+/* Estilo para html y body */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;  /* Establece el color de fondo del lienzo a negro */
+    display: grid;            /* Habilita Grid en el body */
+    place-items: center;      /* Centra horizontal y verticalmente el contenido del body */
+    height: 100vh;            /* Asegura que el body ocupe toda la altura de la ventana */
+  }
+  
+  
+  /* Estilo para el canvas */
+  canvas {
+    display: block;  /* Asegura que el canvas se muestre como un bloque y ocupe el espacio necesario */
+  }
+
+
+/* ....................................................NUCLEO 1..................................*/
+
+#Susy{
+  position: absolute;
+  width: 110px;
+  height: 131px;  /* Ajusta la altura correcta */
+  background-image: url('imagenes/nucleo1/Suci.png'); /* Imagen original del botón */
+  background-size: cover; /* Asegura que la imagen cubra el botón */
+  background-repeat: no-repeat;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  top: 597px;  /* Ajusta la posición vertical según sea necesario */
+  left: 470 px; /* Ajusta la posición horizontal según sea necesario */
+  background-clip: padding-box;
+}
+#Susy:hover {
+  opacity: 0; /* Imagen del botón al pasar el mouse */
+}
+
+#Marco{
+  position: absolute;
+  width: 110px;
+  height: 131px;  /* Ajusta la altura correcta */
+  background-image: url('imagenes/nucleo1/Marco.png'); /* Imagen original del botón */
+  background-size: cover; /* Asegura que la imagen cubra el botón */
+  background-repeat: no-repeat;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  top: 597px;  /* Ajusta la posición vertical según sea necesario */
+  left: 500px; /* Ajusta la posición horizontal según sea necesario */
+  background-clip: padding-box;
+}
+#Marco:hover {
+  opacity: 0;
+}
+
+#VolverN1{
+  position: absolute;
+  width: 252px;
+  height: 60px;  /* Ajusta la altura correcta */
+  background-image: url('imagenes/nucleo1/Volver.png'); /* Imagen original del botón */
+  background-size: cover; /* Asegura que la imagen cubra el botón */
+  background-repeat: no-repeat;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  top: 597px;  /* Ajusta la posición vertical según sea necesario */
+  left: 500px; /* Ajusta la posición horizontal según sea necesario */
+  background-clip: padding-box;
+}
+#VolverN1:hover {
+  background-image: url('imagenes/nucleo1/VolverH.png'); /* Imagen del botón al pasar el mouse */
+}
+
+#VolverN1T{
+  position: absolute;
+  width: 261px;
+  height: 61px;  /* Ajusta la altura correcta */
+  background-image: url('imagenes/nucleo1/Volver.png'); /* Imagen original del botón */
+  background-size: cover; /* Asegura que la imagen cubra el botón */
+  background-repeat: no-repeat;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  top: 597px;  /* Ajusta la posición vertical según sea necesario */
+  left: 632px; /* Ajusta la posición horizontal según sea necesario */
+  background-clip: padding-box;
+}
+#VolverN1T:hover {
+  background-image: url('imagenes/nucleo1/VolverH.png'); /* Imagen del botón al pasar el mouse */
+}
+
+#continuar{
+  position: absolute;
+  width: 184px;
+  height: 42px;  /* Ajusta la altura correcta */
+  background-image: url('imagenes/nucleo1/Continuar.png'); /* Imagen original del botón */
+  background-size: cover; /* Asegura que la imagen cubra el botón */
+  background-repeat: no-repeat;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  background-clip: padding-box;
+}
+#continuar:hover {
+  background-image: url('imagenes/nucleo1/ContinuarH.png'); /* Imagen del botón al pasar el mouse */
+}
+
+#debil{
+  position: absolute;
+  width: 120px;
+  height: 42px;  /* Ajusta la altura correcta */
+  background-image: url('imagenes/nucleo1/Debil.png'); /* Imagen original del botón */
+  background-size: cover; /* Asegura que la imagen cubra el botón */
+  background-repeat: no-repeat;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  background-clip: padding-box;
+}
+#debil:hover {
+  background-image: url('imagenes/nucleo1/DebilH.png'); /* Imagen del botón al pasar el mouse */
+}
+
+#fuerte{
+  position: absolute;
+  width: 120px;
+  height: 42px;  /* Ajusta la altura correcta */
+  background-image: url('imagenes/nucleo1/Fuerte.png'); /* Imagen original del botón */
+  background-size: cover; /* Asegura que la imagen cubra el botón */
+  background-repeat: no-repeat;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  background-clip: padding-box;
+}
+#fuerte:hover {
+  background-image: url('imagenes/nucleo1/FuerteH.png'); /* Imagen del botón al pasar el mouse */
+}
+
+#VolverN1IA{
+  position: absolute;
+  width: 328px;
+  height: 78px;  /* Ajusta la altura correcta */
+  background-image: url('imagenes/nucleo1/Volver.png'); /* Imagen original del botón */
+  background-size: cover; /* Asegura que la imagen cubra el botón */
+  background-repeat: no-repeat;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  top: 597px;  /* Ajusta la posición vertical según sea necesario */
+  left: 632px; /* Ajusta la posición horizontal según sea necesario */
+  background-clip: padding-box;
+}
+#VolverN1IA:hover {
+  background-image: url('imagenes/nucleo1/VolverH.png'); /* Imagen del botón al pasar el mouse */
+}
+
+#PuertaN2{
+  position: absolute;
+  width: 109px;
+  height: 100px;  /* Ajusta la altura correcta */
+  background-image: url('imagenes/Puerta.png'); /* Imagen original del botón */
+  background-size: cover; /* Asegura que la imagen cubra el botón */
+  background-repeat: no-repeat;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  top: 597px;  /* Ajusta la posición vertical según sea necesario */
+  left: 632px; /* Ajusta la posición horizontal según sea necesario */
+  background-clip: padding-box;
+}
+#PuertaN2:hover {
+  background-image: url('imagenes/PuertaH.png'); /* Imagen del botón al pasar el mouse */
+}
+  
+/* ....................................................NUCLEO 2.................................*/
+
+#PuertaN3{
+  position: absolute;
+  width: 109px;
+  height: 100px;  /* Ajusta la altura correcta */
+  background-image: url('imagenes/nucleo2/PuertaN3.png'); /* Imagen original del botón */
+  background-size: cover; /* Asegura que la imagen cubra el botón */
+  background-repeat: no-repeat;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  top: 597px;  /* Ajusta la posición vertical según sea necesario */
+  left: 632px; /* Ajusta la posición horizontal según sea necesario */
+  background-clip: padding-box;
+}
+#PuertaN3:hover {
+  background-image: url('imagenes/nucleo2/PuertaN3H.png'); /* Imagen del botón al pasar el mouse */
+}
+
+#invisible{
+  position: absolute;
+  width: 267px;
+  height: 85px;  /* Ajusta la altura correcta */
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  top: 597px;  /* Ajusta la posición vertical según sea necesario */
+  left: 500px; /* Ajusta la posición horizontal según sea necesario */
+  background-clip: padding-box;
+}
+
+
+
+  /* Estilo para el botón */
+#mi-boton {
+  position: absolute;
+  width: 325px;
+  height: 76px;  /* Ajusta la altura correcta */
+  background-image: url('imagenes/comenzar.png'); /* Imagen original del botón */
+  background-size: cover; /* Asegura que la imagen cubra el botón */
+  background-repeat: no-repeat;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  top: 500px;  /* Ajusta la posición vertical según sea necesario */
+  left: 600px; /* Ajusta la posición horizontal según sea necesario */
+  transition: background-image 0.3s ease; /* Opcional: añadir transición suave */
+}
+
+#mi-boton:hover {
+  background-image: url('imagenes/comenzar-hover.png'); /* Imagen del botón al pasar el mouse */
+}
+
+/* Estilo para el botón */
+#mi-boton2 {
+  position: absolute;
+  width: 224px;
+  height: 53px;  /* Ajusta la altura correcta */
+  background-image: url('imagenes/CONTINUAR.png'); /* Imagen original del botón */
+  background-size: contain; /* Asegura que la imagen cubra el botón */
+  background-repeat: no-repeat;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  top: 200px;  /* Ajusta la posición vertical según sea necesario */
+  left: 200px; /* Ajusta la posición horizontal según sea necesario */
+  transition: background-image 0.3s ease; /* Opcional: añadir transición suave */
+}
+
+#mi-boton2:hover {
+  background-image: url('imagenes/continuar-hover.png'); /* Imagen del botón al pasar el mouse */
+}
+
+
+/* Estilo para el botón */
+#mi-boton3 {
+  position: absolute;
+  width: 321px;
+  height: 81px;  /* Ajusta la altura correcta */
+  background-image: url('imagenes/CONTINUAR.png'); /* Imagen original del botón */
+  background-size: contain; /* Asegura que la imagen cubra el botón */
+  background-repeat: no-repeat;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  top: 200px;  /* Ajusta la posición vertical según sea necesario */
+  left: 200px; /* Ajusta la posición horizontal según sea necesario */
+  transition: background-image 0.3s ease; /* Opcional: añadir transición suave */
+}
+
+
+#mi-boton3:hover {
+  background-image: url('imagenes/continuar-hover.png'); /* Imagen del botón al pasar el mouse */
+} 
+
+  #mi-botonBack {
+    position: absolute;
+    width: 224px;
+    height: 53px;
+    background-image: url('imagenes/volver_normal.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+     /* Cerca del borde izquierdo */
+    transition: background-image 0.3s ease;
+  }
+  
+  #mi-botonBack:hover {
+    background-image: url('imagenes/volver_hover.png');
+  }
+
+  #boton-archivero {
+    position: absolute;
+    width: 334px;
+    height: 79px;
+    background-image: url('imagenes/volver_normalArch.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: none;
+    padding: 15;
+    cursor: pointer;
+     /* Cerca del borde izquierdo */
+    transition: background-image 0.3s ease;
+  }
+  
+  #boton-archivero:hover {
+    background-image: url('imagenes/volver_hoverArch.png');
+  }
+  
+
+  #boton-lavender {
+    position: absolute;
+    width: 334px;
+    height: 79px;
+    background-image: url('imagenes/nucleo3/LAVENDER_NORMAL-NJ.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+     /* Cerca del borde izquierdo */
+    transition: background-image 0.3s ease;
+  }
+  
+  #boton-lavender:hover {
+    background-image: url('imagenes/nucleo3/lavender_hover-nj.png');
+  }
+
+  
+  #boton-volverN3 {
+    position: absolute;
+    width: 217px;
+    height: 51px;
+    background-image: url('imagenes/volver_normalN3.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 0;
+    padding: 0;
+    cursor: pointer;
+     /* Cerca del borde izquierdo */
+    transition: background-image 0.3s ease;
+  }
+  
+  #boton-volverN3:hover {
+    background-image: url('imagenes/volver_hoverN3.png');
+  }
+
+  #boton2-volverN3 {
+    position: absolute;
+    width: 224px;
+    height: 51px;
+    background-image: url('imagenes/volver_1DesdeLV.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+     /* Cerca del borde izquierdo */
+    transition: background-image 0.3s ease;
+  }
+  
+  #boton2-volverN3:hover {
+    background-image: url('imagenes/volver_1DesdeLv_hover.png');
+  }
+
+  #boton-reseteo {
+    position: absolute;
+    width: 207.5px;
+    height: 48px;
+    background-image: url('imagenes/nucleo3/continuarNormalLavender.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    
+ transition: background-image 0.3s ease;
+  }
+  
+  #boton-reseteo:hover {
+    background-image: url('imagenes/nucleo3/continuarHoverLavender.png');
+  }
+
+  #vuelvoAlNucleo3 {
+    position: absolute;
+    width: 334px;
+    height: 79px;
+    background-image: url('imagenes/volverAlN3_normal.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    
+ transition: background-image 0.3s ease;
+  }
+  
+  #vuelvoAlnucleo3:hover {
+    background-image: url('imagenes/volverrAlN3_hover.png');
+  }
