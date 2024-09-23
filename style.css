@@ -21,16 +21,14 @@ body {
 
 #Susy{
   position: absolute;
-  width: 110px;
-  height: 131px;  /* Ajusta la altura correcta */
+  width: 144px;
+  height: 174px;  /* Ajusta la altura correcta */
   background-image: url('imagenes/nucleo1/Suci.png'); /* Imagen original del botón */
   background-size: cover; /* Asegura que la imagen cubra el botón */
   background-repeat: no-repeat;
   border: none;
   padding: 0;
   cursor: pointer;
-  top: 597px;  /* Ajusta la posición vertical según sea necesario */
-  left: 470 px; /* Ajusta la posición horizontal según sea necesario */
   background-clip: padding-box;
 }
 #Susy:hover {
@@ -39,16 +37,14 @@ body {
 
 #Marco{
   position: absolute;
-  width: 110px;
-  height: 131px;  /* Ajusta la altura correcta */
+  width: 134px;
+  height: 154px;  /* Ajusta la altura correcta */
   background-image: url('imagenes/nucleo1/Marco.png'); /* Imagen original del botón */
   background-size: cover; /* Asegura que la imagen cubra el botón */
   background-repeat: no-repeat;
   border: none;
   padding: 0;
   cursor: pointer;
-  top: 597px;  /* Ajusta la posición vertical según sea necesario */
-  left: 500px; /* Ajusta la posición horizontal según sea necesario */
   background-clip: padding-box;
 }
 #Marco:hover {
@@ -93,7 +89,7 @@ body {
 
 #continuar{
   position: absolute;
-  width: 184px;
+  width: 182px;
   height: 42px;  /* Ajusta la altura correcta */
   background-image: url('imagenes/nucleo1/Continuar.png'); /* Imagen original del botón */
   background-size: cover; /* Asegura que la imagen cubra el botón */
@@ -174,6 +170,40 @@ body {
 #PuertaN2:hover {
   background-image: url('imagenes/PuertaH.png'); /* Imagen del botón al pasar el mouse */
 }
+
+#PuertaAlN2{
+  position: absolute;
+  width: 109px;
+  height: 112px;  /* Ajusta la altura correcta */
+  background-image: url('imagenes/nucleo3/volverAlNucleo2.png'); /* Imagen original del botón */
+  background-size: cover; /* Asegura que la imagen cubra el botón */
+  background-repeat: no-repeat;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  top: 597px;  /* Ajusta la posición vertical según sea necesario */
+  left: 632px; /* Ajusta la posición horizontal según sea necesario */
+  background-clip: padding-box;
+}
+#PuertaAlN2:hover {
+  background-image: url('imagenes/nucleo3/Volver_Al_N2_hover.png'); /* Imagen del botón al pasar el mouse */
+}
+
+#PuertaN1{
+  position: absolute;
+  width: 120px;
+  height: 109px;  /* Ajusta la altura correcta */
+  background-image: url('imagenes/nucleo2/PuertaN1.png'); /* Imagen original del botón */
+  background-size: cover; /* Asegura que la imagen cubra el botón */
+  background-repeat: no-repeat;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  background-clip: padding-box;
+}
+#PuertaN1:hover {
+  background-image: url('imagenes/nucleo2/PuertaN1H.png'); /* Imagen del botón al pasar el mouse */
+}
   
 /* ....................................................NUCLEO 2.................................*/
 
@@ -206,6 +236,9 @@ body {
   left: 500px; /* Ajusta la posición horizontal según sea necesario */
   background-clip: padding-box;
 }
+
+
+
 
 
 
@@ -384,8 +417,8 @@ body {
 
   #vuelvoAlNucleo3 {
     position: absolute;
-    width: 334px;
-    height: 79px;
+    width: 318px;
+    height: 75px;
     background-image: url('imagenes/volverAlN3_normal.png');
     background-size: contain;
     background-repeat: no-repeat;
@@ -398,4 +431,26 @@ body {
   
   #vuelvoAlnucleo3:hover {
     background-image: url('imagenes/volverrAlN3_hover.png');
+  }
+
+  #reset{
+    position: absolute;
+    width: 318px;
+    height: 75px;  /* Ajusta la altura correcta */
+    background-image: url('imagenes/nucleo3/Reset.png'); /* Imagen original del botón */
+    background-size: contain; /* Asegura que la imagen cubra el botón */
+    background-repeat: no-repeat;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    background-clip: padding-box;
+  }
+  #reset:hover {
+    background-image: url('imagenes/nucleo3/ResetH.png');
+  }
+
+  .press-start-2p-regular {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
   }
